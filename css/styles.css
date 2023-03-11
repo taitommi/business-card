@@ -16,11 +16,11 @@ body{
 }
 
 .container {
-    width: 900px;
-    height: 520px;
+    width: 745px;
+    height: 434px;
     perspective: 800px;
 }
-@media screen and (max-width: 760px){
+@media screen and (max-width: 754px){
     .container{ width: 100%; margin: 0 auto; }
 }
 
@@ -49,7 +49,8 @@ body{
 
 .front {
     background-image: url(../images/front.jpg);
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .back {
@@ -58,4 +59,5 @@ body{
         background-size: cover;
         transform: rotateY(180deg) rotateZ(180deg);
         display: flex;
+        background-repeat: no-repeat;
 }
