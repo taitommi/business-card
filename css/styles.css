@@ -20,9 +20,6 @@ body{
     height: 434px;
     perspective: 800px;
 }
-@media screen and (max-width: 754px){
-    .container{ width: 100%; margin: 0 auto; }
-}
 
 .card {
     height: 100%;
