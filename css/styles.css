@@ -53,7 +53,7 @@ body{
 .back {
    
         background-image: url(../images/back.jpg);
-        background-size: cover;
+        background-size: contain;
         transform: rotateY(180deg) rotateZ(180deg);
         display: flex;
         background-repeat: no-repeat;
